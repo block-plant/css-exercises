@@ -1,1 +1,12 @@
 /* Add CSS Styling */
+.avatar {
+    width : 300px ;
+    height : auto ;
+}
+
+/* this is the chaining part  */
+.avatar.distorted  {
+    width : 200px ;
+    height : 400px ;
+}
+
