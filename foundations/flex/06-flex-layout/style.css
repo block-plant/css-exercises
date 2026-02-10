@@ -35,9 +35,6 @@ input {
   box-sizing: border-box;
 }
 
-.left-links {
-  /* this stays left by default  */
-}
 
 .left-links,
 .right-links {
@@ -104,9 +101,6 @@ button {
   border-top: 1px solid #ddd;
 }
 
-.footer .left-links {
-  /* nothing for this  */
-}
 
 .footer .right-link {
   margin-right: auto;
