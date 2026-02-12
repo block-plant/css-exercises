@@ -1,0 +1,163 @@
+/* RESET */
+body{
+    margin:0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* CONTAINER (MOST IMPORTANT CLASS) */
+.container{
+    max-width:1100px;
+    margin:0 auto;
+    padding:0 20px;
+}
+
+.container.small{
+    max-width:800px;
+}
+
+/* HERO */
+.hero{
+    background:#1F2937;
+    color:white;
+    padding-bottom:80px;
+}
+
+/* HEADER */
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 0;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:700;
+}
+
+.links{
+    list-style:none;
+    display:flex;
+    gap:20px;
+    color:#cbd5e1;
+}
+
+/* HERO CONTENT */
+.hero-content{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:40px;
+    padding-top:60px;
+}
+
+.hero-left{
+    max-width:500px;
+}
+
+.hero-left h1{
+    font-size:48px;
+    margin:0;
+}
+
+.hero-left p{
+    color:#cbd5e1;
+}
+
+/* BUTTON */
+.primary-btn{
+    background:#3b82f6;
+    border:none;
+    color:white;
+    padding:10px 26px;
+    border-radius:8px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+/* IMAGE BOX */
+.image-box{
+    width:500px;
+    height:230px;
+    background:gray;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+/* INFO SECTION */
+.info{
+    padding:80px 0;
+    text-align:center;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    margin-top:40px;
+}
+
+.card{
+    max-width:150px;
+}
+
+.box{
+    width:150px;
+    height:150px;
+    border:4px solid #3b82f6;
+    border-radius:12px;
+    margin-bottom:10px;
+}
+
+/* TESTIMONIAL */
+.testimonial{
+    background:#e5e7eb;
+    padding:100px 0;
+}
+
+.quote{
+    font-size:28px;
+    font-style:italic;
+    line-height:1.5;
+}
+
+.author{
+    text-align:right;
+    font-weight:bold;
+}
+
+/* CTA */
+.cta{
+    padding:80px 0;
+}
+
+.cta-box{
+    background:#3b82f6;
+    color:white;
+    border-radius:12px;
+    padding:40px 80px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.outline-btn{
+    background:transparent;
+    border:2px solid white;
+    color:white;
+    padding:10px 26px;
+    border-radius:8px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+/* FOOTER */
+.footer{
+    background:#1F2937;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
